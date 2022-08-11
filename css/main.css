@@ -127,16 +127,49 @@ img {
 }
 
 .section {
+  /*
   padding-top: 94px;
-  padding-bottom: 94px;
+  padding-bottom: 94px;*/
+}
+@media screen and (min-width: 480px) {
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .container {
-  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+}
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
 }
 
 /*Modal Form*/
@@ -615,19 +648,39 @@ img {
 
 /*Features section*/
 .features__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 30px;
+  /*
+  gap: 30px;*/
+}
+@media screen and (min-width: 768px) {
+  .features__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: -15px;
+  }
 }
 
 .features__item {
-  width: 270px;
+  width: 100%;
+  /*width: 270px;*/
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
+@media screen and (min-width: 768px) {
+  .features__item {
+    width: calc((100% - 30px) / 2);
+    margin: 15px;
+  }
+}
 
+@media screen and (max-width: 767px) {
+  .features__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
 .icon-image {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -640,12 +693,12 @@ img {
           justify-content: center;
   background-color: #f5f4fa;
   border-radius: 4px;
-  width: 270px;
+  /*width: 270px;*/
   height: 120px;
 }
 
 .features__icon-image {
-  margin-bottom: 30px;
+  /*margin-bottom: 30px;*/
 }
 
 .features__title {
@@ -655,6 +708,7 @@ img {
   line-height: 1.14;
   text-transform: uppercase;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .features__title:last-child {
