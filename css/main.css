@@ -681,12 +681,12 @@ img {
     margin: 15px;
   }
 }
-
 @media screen and (max-width: 767px) {
   .features__item:not(:last-child) {
     margin-bottom: 30px;
   }
 }
+
 .icon-image {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -726,12 +726,14 @@ img {
   line-height: 1.71;
 }
 
-.about {
-  /*padding-top: 0;*/
-}
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .about {
     display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .about {
+    padding-top: 0;
   }
 }
 

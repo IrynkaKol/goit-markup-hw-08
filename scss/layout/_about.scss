@@ -1,9 +1,11 @@
 .about {
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 768px) {
     display: none;
   }
 
-  /*padding-top: 0;*/
+  @media screen and (min-width: 1200px) {
+    padding-top: 0;
+  }
 }
 
 .about__title {
