@@ -2,9 +2,10 @@
 
 .clients__list {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 30px;
+  /*gap: 30px;*/
   padding-top: 50px;
 }
 
@@ -32,6 +33,11 @@
     color: rgba(33, 150, 243, 1);
     border: 1px solid rgba(33, 150, 243, 1);
   }
+}
+
+.clients__item {
+  width: auto;
+  margin: 15px;
 }
 
 .clients__icon {
