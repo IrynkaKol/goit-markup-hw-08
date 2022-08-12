@@ -1,6 +1,7 @@
 /*Header section*/
 .header {
   border-bottom: solid #ececec;
+  position: relative;
 }
 
 .header__container {
@@ -42,6 +43,17 @@
 }
 .header-btn.is-open .header-btn__cross {
   display: block;
+}
+
+.header-btn.is-open .header-btn__menu {
+  display: none;
+}
+
+.menu-container {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
 }
 
 /*

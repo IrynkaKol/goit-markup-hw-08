@@ -27,7 +27,11 @@
     <header class="header">
       <div class="container header__container">
         <a class="logo header__logo" href="" lang="en"><span class="logo__word">Web</span>Studio</a>
-        <button type="button" class="header-btn" is-open >
+        <button type="button"
+         class="header-btn is-open"
+         aria-controls="menu-container"
+          aria-expanded="false"
+           data-menu >
           <svg
            width="40" height="40">
            aria-label="Перемикач мобільного меню"
@@ -36,6 +40,9 @@
           
           </svg>
         </button>
+      <div class="menu-container" id="menu-container" >
+контент меню
+      </div>
         <!--<nav class="nav header__nav">
           <ul class="nav__list list">
             <li class="nav__item">
@@ -176,7 +183,7 @@
       </section>
 
       <!--Team section-->
-      <!-- <section class="team section">
+       <section class="team section">
         <div class="container">
           <h2 class="team__title">Наша команда</h2>
           <ul class="team__list list">
@@ -463,7 +470,7 @@
             </li>
           </ul>
         </div>
-      </section>-->
+      </section>
 
       <!--Clients-->
       <!--<section class="clients section">
@@ -736,5 +743,6 @@
     </div>
 
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
