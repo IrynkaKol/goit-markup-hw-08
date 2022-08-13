@@ -54,6 +54,10 @@
   text-transform: uppercase;
   margin-bottom: 10px;
   text-align: center;
+
+  @media screen and (min-width: 768px) {
+    text-align: left;
+  }
 }
 
 .features__title:last-child {
@@ -62,5 +66,10 @@
 
 .features__discription {
   font-size: 14px;
-  line-height: 1.71;
+  line-height: calc(24 / 14);
+
+  @media screen and (min-width: 768px) and (max-width: 1200px) {
+    text-align: justify;
+    word-spacing: -2px;
+  }
 }
