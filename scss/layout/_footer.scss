@@ -5,7 +5,8 @@
 
 .container-footer {
   text-align: center;
-  align-items: baseline;
+  align-items: center;
+
   /*
 
   @media screen and (min-width: 1200px) {
@@ -21,12 +22,19 @@
 }
 
 .footer-left {
+  margin-bottom: 60px;
   @media screen and (min-width: 1200px) {
     text-align: center;
     margin-right: 165px;
-    margin-left: 76px;
   }
 }
+
+.footer-right {
+  @media screen and (min-width: 1200px) {
+    text-align: center;
+  }
+}
+
 .footer-section,
 .footer-social {
   margin-bottom: 60px;
@@ -51,7 +59,7 @@
   @media screen and (min-width: 1200px) {
     display: flex;
     text-align: center;
-    align-items: baseline;
+    align-items: center;
   }
 }
 
@@ -137,6 +145,7 @@
 .footer-signup {
   @media screen and (min-width: 1200px) {
     display: flex;
+    gap: 12px;
   }
 
   /*margin-left: auto;*/
@@ -168,8 +177,12 @@
   padding-left: 16px;
   margin-bottom: 20px;
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 768px) {
     max-width: 450px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 358px;
   }
 }
 
