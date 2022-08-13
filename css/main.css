@@ -1054,7 +1054,7 @@ img {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   .footer-left {
     text-align: center;
     margin-right: 165px;
@@ -1082,7 +1082,7 @@ img {
   margin-bottom: 20px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   .footer-wrap {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1185,12 +1185,12 @@ img {
 .footer-signup {
   /*margin-left: auto;*/
 }
-
-.footer-form {
-  /*
-  @media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
+  .footer-signup {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-  }*/
+  }
 }
 
 .footer-list {
@@ -1220,7 +1220,7 @@ img {
   padding-left: 16px;
   margin-bottom: 20px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   .footer__input {
     max-width: 450px;
   }

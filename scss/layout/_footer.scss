@@ -21,7 +21,7 @@
 }
 
 .footer-left {
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1200px) {
     text-align: center;
     margin-right: 165px;
     margin-left: 76px;
@@ -48,7 +48,7 @@
 }
 
 .footer-wrap {
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1200px) {
     display: flex;
     text-align: center;
     align-items: baseline;
@@ -135,13 +135,11 @@
 }
 
 .footer-signup {
-  /*margin-left: auto;*/
-}
-.footer-form {
-  /*
   @media screen and (min-width: 1200px) {
     display: flex;
-  }*/
+  }
+
+  /*margin-left: auto;*/
 }
 
 .footer-list {
@@ -170,7 +168,7 @@
   padding-left: 16px;
   margin-bottom: 20px;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1200px) {
     max-width: 450px;
   }
 }
