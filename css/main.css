@@ -1146,6 +1146,12 @@ img {
 .footer-contacts__adress {
   color: var(--text-color);
 }
+@media screen and (min-width: 1200px) {
+  .footer-contacts__adress {
+    white-space: nowrap;
+    text-decoration: none;
+  }
+}
 
 .footer-contacts__link {
   color: rgba(255, 255, 255, 0.6);
@@ -1161,9 +1167,6 @@ img {
   color: var(--accent-color);
 }
 
-/*.container-footer {
-  padding-bottom: 60px;
-}*/
 .footer-contacts__item:not(:last-child) {
   margin-bottom: 9px;
 }
