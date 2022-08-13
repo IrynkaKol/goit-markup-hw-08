@@ -1037,9 +1037,16 @@ img {
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
+  /*
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    gap: 70px;
+  }*/
 }
+
 @media screen and (min-width: 1200px) {
-  .container-footer {
+  .footer-section {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
