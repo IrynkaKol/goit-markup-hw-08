@@ -60,6 +60,7 @@
   margin-bottom: 20px;
 
   @media screen and (min-width: 1200px) {
+    display: flex;
     text-align: left;
   }
 }
@@ -146,6 +147,11 @@
   text-transform: uppercase;
   color: #ffffff;
   margin-bottom: 20px;
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    text-align: left;
+  }
 }
 
 .footer-social__list {

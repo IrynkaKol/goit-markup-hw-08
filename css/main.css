@@ -1102,6 +1102,9 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .footer__logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     text-align: left;
   }
 }
@@ -1200,6 +1203,14 @@ img {
   text-transform: uppercase;
   color: #ffffff;
   margin-bottom: 20px;
+}
+@media screen and (min-width: 1200px) {
+  .footer-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: left;
+  }
 }
 
 .footer-social__list {
