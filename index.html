@@ -28,8 +28,8 @@
       <div class="container header__container">
         <a class="logo header__logo" href="" lang="en"><span class="logo__word">Web</span>Studio</a>
         <button type="button"
-         class="header-btn is-open"
-         aria-controls="menu-container"
+         class="header-btn js-open-menu"
+         aria-controls="mobale-menu"
           aria-expanded="false"
            data-menu >
           <svg
@@ -40,10 +40,11 @@
           
           </svg>
         </button>
-      <div class="menu-container" id="menu-container" >
-контент меню
-      </div>
-        <!--<nav class="nav header__nav">
+        <ul class="menu">
+
+        </ul>
+      
+        <nav class="nav header__nav">
           <ul class="nav__list list">
             <li class="nav__item">
               <a class="link link--current" href="./index.html">Студія</a>
@@ -85,11 +86,39 @@
           </li>
         </ul>
       </div>
-    -->
+  
     </header>
     
     <!--Main section-->
     <main>
+      <div class="menu-container js-menu-container" id="mobale-menu">
+<button class="header-btn js-class-menu"></button>
+  <ul class="mobile-menu">
+    <li class="mobile-menu__list">
+      <a class="mobile-menu__item" href="./index.html">Студія</a>
+    </li>
+    <li>
+      <a href="./portfolio.html" >Портфоліо</a>
+    </li>
+    <li>
+      <a href="contacts">Контакти</a>
+    </li>
+  </ul>
+    <ul>
+      <li>
+        <a href="mailto:info@devstudio.com"
+              target="_blank"
+              rel="noopener noreferrer">
+              info@devstudio.com</a>
+      </li>
+      <li>
+        <a  href="phone:+380991111111"
+              target="_blank"
+              rel="noopener noreferrer">
+            +38 099 111 11 11</a>
+      </li>
+    </ul>
+</div>
       <!--Hero section-->
       <!-- <section class="hero">
         <div class="hero-container">
