@@ -24,6 +24,7 @@
 
 .menu-container {
   position: fixed;
+
   top: 0;
   left: 0;
   width: 100%;
@@ -44,12 +45,21 @@
   border: 2px solid tomato;
 }
 
+.mobile-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
 .mobile-menu__list:first-child {
   margin-bottom: auto;
 }
 
 .menu-container.is-open {
   transform: translateX(0);
+}
+
+.mobile-menu__list:first-child {
+  margin-bottom: auto;
 }
 
 .mobile-menu__link.link {
