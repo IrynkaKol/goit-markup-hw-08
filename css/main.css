@@ -853,7 +853,7 @@ img {
   margin: 0 auto;
   margin-bottom: 30px;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 480px) and (max-width: 1198px) {
   .hero__title {
     font-size: 26px;
     line-height: 1.6153846154;
