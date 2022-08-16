@@ -48,6 +48,19 @@
   }
 }
 
+.contacts__link.link {
+  @media screen and (min-width: 780px) {
+    padding: 0;
+  }
+}
+.contacts {
+  @media screen and (min-width: 480px) {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
 .nav .link:hover,
 .nav .link:focus {
   color: var(--accent-color);

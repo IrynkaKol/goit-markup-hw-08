@@ -39,10 +39,6 @@
   color: var(--accent-color);
 }
 
-.header-btn__cross {
-  /*display: none;*/
-}
-
 .header-btn.is-open .header-btn__cross {
   display: block;
 }
