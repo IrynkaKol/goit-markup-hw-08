@@ -1,24 +1,5 @@
 /*Modal Form*/
 
-.modal {
-  @media screen and (min-width: 480px) {
-    max-width: 450px;
-    min-height: 609px;
-
-    margin-top: 93px;
-  }
-
-  @media screen and (min-width: 780px) {
-    margin-top: 208px;
-  }
-
-  @media screen and (min-width: 1200px) {
-    max-width: 528px;
-    min-height: 581px;
-    margin-top: 221px;
-  }
-}
-
 .form {
   display: block;
   flex-direction: column;
