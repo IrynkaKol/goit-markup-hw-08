@@ -376,8 +376,8 @@ img {
 }
 @media screen and (min-width: 480px) {
   .modal {
-    width: 528px;
-    min-height: 581px;
+    max-width: 450px;
+    min-height: 609px;
     margin-top: 93px;
   }
 }
