@@ -1,5 +1,24 @@
 /*Modal Form*/
 
+.modal {
+  @media screen and (min-width: 480px) {
+    max-width: 450px;
+    min-height: 609px;
+
+    margin-top: 93px;
+  }
+
+  @media screen and (min-width: 780px) {
+    margin-top: 208px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    max-width: 528px;
+    min-height: 581px;
+    margin-top: 221px;
+  }
+}
+
 .form {
   display: block;
   flex-direction: column;
@@ -12,11 +31,15 @@
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    line-height: 23px;
+    line-height: calc(23 / 20);
     text-align: center;
     letter-spacing: 0.03em;
     margin-bottom: 12px;
     color: var(--title-text-color);
+
+    @media screen and (min-width: 480px) and (max-width: 1198px) {
+      line-height: calc(30 / 20);
+    }
   }
 
   &-group {
