@@ -7,23 +7,45 @@
   gap: var(--indent);
 
   &__item {
-    flex-basis: calc((100% - var(var(--indent)) * (var(--items) - 1)) / var(--items));
-    color: var(--title-text-color);
+    @media screen and (min-width: 780px) {
+      flex-basis: calc((100% - var(var(--indent)) * (var(--itemstab) - 1)) / var(--itemstab));
+      color: var(--title-text-color);
+      width: 100%;
+    }
+
+    @media screen and (min-width: 1200px) {
+      flex-basis: calc((100% - var(var(--indent)) * (var(--items) - 1)) / var(--items));
+      color: var(--title-text-color);
+      width: 100%;
+    }
   }
 
-  &__link {
-    text-decoration: none;
-    padding-top: 0;
-    padding-bottom: 0;
+  &__img {
+    height: 294px;
 
-    display: block;
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    @media screen and (min-width: 480px) {
+      width: 100%;
+    }
+  }
+  .card-set__img {
+    @media screen and (min-width: 780px) {
+      max-width: 354px;
+    }
   }
 
   &__discription {
     position: relative;
     overflow: hidden;
   }
+}
+
+.card-set__link.link {
+  text-decoration: none;
+  padding-top: 0;
+  padding-bottom: 0;
+
+  display: block;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .card-set__link:hover,
