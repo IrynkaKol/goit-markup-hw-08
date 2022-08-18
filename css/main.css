@@ -186,16 +186,8 @@ img {
 }
 
 .section {
-  /*@media screen and (min-width: 750px) {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }*/
-}
-@media screen and (max-width: 1198px) {
-  .section {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 @media screen and (min-width: 1200px) {
   .section {
@@ -215,9 +207,9 @@ img {
     width: 480px;
   }
 }
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 768px) {
   .container {
-    width: 778px;
+    width: 768px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -623,7 +615,6 @@ img {
   background-color: #fff;
   -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
-  *max-width: 480px;
   padding-top: 48px;
   padding-bottom: 48px;
   padding-left: 40px;
@@ -633,6 +624,15 @@ img {
   transition: -webkit-transform 250ms ease-in-out;
   transition: transform 250ms ease-in-out;
   transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+  /*
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);*/
+}
+@media screen and (min-width: 769px) {
+  .menu-container {
+    display: none;
+  }
 }
 
 .menu-container.is-open {
@@ -647,7 +647,7 @@ img {
 .mobile-menu__link.link {
   font-family: var(--main-font);
   font-weight: 500;
-  font-size: 40px;
+  font-size: 26px;
   line-height: 1.175;
   color: rgb(33, 33, 33);
   padding-top: 0;
@@ -660,7 +660,7 @@ img {
 .mobile-menu__phone.link {
   font-family: var(--main-font);
   font-weight: 500;
-  font-size: 34px;
+  font-size: 24px;
   line-height: 1.1764705882;
   color: rgb(33, 150, 243);
   padding-top: 0;
@@ -694,7 +694,7 @@ img {
 .mobile-social__link.link {
   font-family: var(--main-font);
   font-weight: 500px;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 1.2222222222;
   color: rgb(33, 150, 243);
   padding: 0;
@@ -736,6 +736,9 @@ img {
           align-items: center;
   padding-top: 0;
   padding-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
 }
 
 .logo {
@@ -748,7 +751,7 @@ img {
   padding: 0;
   padding: 25px 0;
 }
-@media screen and (min-width: 480px) and (max-width: 778px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .logo {
     padding: 16px 0;
   }
@@ -832,7 +835,7 @@ img {
   margin-right: auto;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 779px) {
   .header__nav,
 .contacts {
     display: none;
