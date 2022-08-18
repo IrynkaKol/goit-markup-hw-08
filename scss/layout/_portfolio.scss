@@ -56,13 +56,15 @@
 }
 
 .portfolio-list {
-  width: 480px;
+  @media screen and (min-width: 480px) and (max-width: 778px) {
+    width: 480px;
+  }
 }
 .portfolio__title {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
-  line-height: 2;
+  line-height: calc(30 / 18);
   letter-spacing: 0.06em;
   margin-bottom: 4px;
 }

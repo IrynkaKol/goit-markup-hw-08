@@ -40,11 +40,32 @@
   }
 }
 
-.card-set__img,
 .card-set__item,
-.card-set {
+.card-set__img {
+  @media screen and (min-width: 780px) {
+    max-height: 440px;
+  }
+}
+
+.card-set__img,
+.card-set__item /*,
+.card-set */ {
   @media screen and (min-width: 780px) {
     max-width: 354px;
+  }
+}
+
+.card-set__item {
+  @media screen and (min-width: 780px) {
+    flex-basis: calc((100% - var(var(--indent)) * (var(--itemstab) - 1)) / var(--itemstab));
+    color: var(--title-text-color);
+    width: 100%;
+  }
+
+  @media screen and (min-width: 1200px) {
+    flex-basis: calc((100% - var(var(--indent)) * (var(--items) - 1)) / var(--items));
+    color: var(--title-text-color);
+    width: 100%;
   }
 }
 
