@@ -29,6 +29,7 @@
   transition: transform 400ms ease-in-out 300ms, opacity 400ms ease-in-out 300ms;
 
   @media screen and (min-width: 480px) {
+    position: relative;
     max-width: 450px;
     min-height: 609px;
     margin-top: 93px;

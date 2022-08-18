@@ -29,10 +29,10 @@
     margin: 0 auto;
     margin-bottom: 30px;
 
-    @media screen and (min-width: 480px) and (max-width: 1198px) {
+    @media screen and (min-width: 320px) and (max-width: 1198px) {
       font-size: 26px;
       line-height: calc(42 / 26);
-      width: 360px;
+      width: 320px;
     }
   }
 
