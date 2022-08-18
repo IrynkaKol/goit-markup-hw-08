@@ -7,17 +7,9 @@
   gap: var(--indent);
 
   &__item {
-    @media screen and (min-width: 780px) {
-      flex-basis: calc((100% - var(var(--indent)) * (var(--itemstab) - 1)) / var(--itemstab));
-      color: var(--title-text-color);
-      width: 100%;
-    }
-
-    @media screen and (min-width: 1200px) {
-      flex-basis: calc((100% - var(var(--indent)) * (var(--items) - 1)) / var(--items));
-      color: var(--title-text-color);
-      width: 100%;
-    }
+    flex-basis: calc((100% - var(var(--indent)) * (var(--items) - 1)) / var(--items));
+    color: var(--title-text-color);
+    width: 100%;
   }
 
   &__img {

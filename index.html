@@ -41,8 +41,7 @@
           
           </svg>
         </button>
-        
-            
+                    
         <nav class="nav header__nav">
           <ul class="nav__list list">
             <li class="nav__item">
@@ -189,7 +188,8 @@
           <h2 class="team__title">Наша команда</h2>
           <ul class="team__list list">
             <li class="team__item">
-              <!--Дискриптор Х-->
+
+              <!--Дискриптор Х (якщо для одного екрана)-->
               <!--
               <img
               srcset="./images\team\card1@1x_sd.jpg 1x, ./images\team\card1@2x_sd.jpg 2x" 
@@ -199,7 +199,8 @@
                 width="450"
                 height="260"
               />-->
-              <!--Дискриптор W-->
+
+              <!--Дискриптор W (якщо для різних екранів)-->
                <img
               srcset="
               ./images\team\w\card1-354.jpg 354w,
@@ -282,10 +283,19 @@
             </li>
             <li class="team__item">
               <img
-                class="team__img"
-                src="./images/team/card2 (2).jpg"
+              srcset="
+              ./images\team\w\card2-354.jpg 354w,
+              ./images\team\w\card2-370.jpg 370w,
+              ./images\team\w\card2-450.jpg 450w,
+              ./images\team\w\card2-708.jpg 708w,
+              ./images\team\w\card2-740.jpg 740w,
+              ./images\team\w\card2-900.jpg 900w
+              "
+              sizes="(min-width: 1200px) 370px, (min-width: 778px) 354px, 100vw"
+                src="./images\team\w\card2-354.jpg"
                 alt="Ольга"
-                width="270"
+                class="team__img"
+                width="450"
                 height="260"
               />
               <div class="team-description">
@@ -352,10 +362,19 @@
             </li>
             <li class="team__item">
               <img
-                class="team__img"
-                src="./images/team/card3 (2).jpg"
+              srcset="
+              ./images\team\w\card3-354.jpg 354w,
+              ./images\team\w\card3-370.jpg 370w,
+              ./images\team\w\card3-450.jpg 450w,
+              ./images\team\w\card3-708.jpg 708w,
+              ./images\team\w\card3-740.jpg 740w,
+              ./images\team\w\card3-900.jpg 900w
+              " 
+              sizes="(min-width: 1200px) 370px, (min-width: 778px) 354px, 100vw"
+                src="./images\team\w\card3-354.jpg"
                 alt="Николай"
-                width="270"
+                class="team__img"
+                width="450"
                 height="260"
               />
               <div class="team-description">
@@ -422,10 +441,19 @@
             </li>
             <li class="team__item">
               <img
-                class="team__img"
-                src="./images/team/card4 (2).jpg"
+                srcset="
+              ./images\team\w\card4-354.jpg 354w,
+              ./images\team\w\card4-370.jpg 370w,
+              ./images\team\w\card4-450.jpg 450w,
+              ./images\team\w\card4-708.jpg 708w,
+              ./images\team\w\card4-740.jpg 740w,
+              ./images\team\w\card4-900.jpg 900w
+              " 
+              sizes="(min-width: 1200px) 370px, (min-width: 778px) 354px, 100vw"
+                src="./images\team\w\card4-354.jpg"
                 alt="Михаил"
-                width="270"
+                class="team__img"
+                width="450"
                 height="260"
               />
               <div class="team-description">
