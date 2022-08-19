@@ -19,8 +19,6 @@
 }
 
 .modal {
-  /*width: 528px;
-  min-height: 581px;*/
   padding: 40px;
 
   background-color: #ffffff;
@@ -30,12 +28,12 @@
 
   @media screen and (min-width: 480px) {
     position: relative;
-    max-width: 450px;
-    min-height: 609px;
   }
 
   @media screen and (min-width: 780px) {
     position: absolute;
+    max-width: 450px;
+    min-height: 609px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(1) rotate(0);
