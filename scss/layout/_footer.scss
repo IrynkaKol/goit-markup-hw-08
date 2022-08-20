@@ -7,16 +7,19 @@
   text-align: center;
   align-items: center;
 
-  @media screen and (min-width: 1200px) {
+  /*@media screen and (min-width: 1200px) {
     text-align: left;
     padding-top: 60px;
     padding-bottom: 60px;
-  }
+  }*/
 }
 .footer-section {
   margin-bottom: 0;
 
   @media screen and (min-width: 1200px) {
+    text-align: left;
+    padding-top: 60px;
+    padding-bottom: 60px;
     display: flex;
     gap: 70px;
   }
@@ -24,14 +27,24 @@
 
 .footer-left {
   margin-bottom: 60px;
+
+  @media screen and (min-width: 768px) {
+    margin-right: 165px;
+  }
+
   @media screen and (min-width: 1200px) {
     text-align: center;
-    margin-right: 165px;
+    margin-right: 70px;
     margin-bottom: 0;
   }
 }
 
 .footer-right {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   @media screen and (min-width: 1200px) {
     display: flex;
     gap: 12px;
@@ -41,7 +54,7 @@
 .footer-social {
   margin-bottom: 60px;
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 768px) {
     margin-bottom: 0;
   }
 }
@@ -67,10 +80,11 @@
 }
 
 .footer-wrap {
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 768px) {
     display: flex;
     text-align: center;
-    align-items: flex-start;
+
+    /* align-items: flex-start;*/
   }
 }
 
@@ -78,6 +92,7 @@
   @media screen and (min-width: 1200px) {
     padding: 0;
     width: 231px;
+    display: flex;
   }
 }
 
@@ -171,11 +186,12 @@
 }
 
 .footer-signup {
+  margin-left: auto;
+  margin-right: auto;
   @media screen and (min-width: 1200px) {
     gap: 12px;
+    margin-left: auto;
   }
-
-  /*margin-left: auto;*/
 }
 
 .footer-list {
@@ -183,7 +199,8 @@
 }
 
 .footer__input {
-  display: inline-flex;
+  display: flex;
+  /*display: inline-flex;*/
   width: 100%;
 
   /*width: 350px;*/
@@ -205,10 +222,13 @@
   margin-bottom: 20px;
 
   @media screen and (min-width: 768px) {
-    max-width: 450px;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   @media screen and (min-width: 1200px) {
+    display: inline-flex;
     width: 358px;
   }
 }
