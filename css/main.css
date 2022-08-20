@@ -110,7 +110,7 @@ img {
   height: 294px;
   background-repeat: no-repeat;
 }
-@media screen and (min-width: 480px) and (max-width: 778px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .card-set__img {
     width: 100%;
   }
@@ -120,27 +120,27 @@ img {
   overflow: hidden;
 }
 
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 768px) {
   .card-set__discription {
     width: 354px;
   }
 }
 
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 768px) {
   .card-set__item,
 .card-set__img {
     max-height: 440px;
   }
 }
 
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 768px) {
   .card-set__img,
 .card-set__item {
     max-width: 354px;
   }
 }
 
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 768px) {
   .card-set__item {
     -ms-flex-preferred-size: calc((100% - var(var(--indent)) * (var(--itemstab) - 1)) / var(--itemstab));
         flex-basis: calc((100% - var(var(--indent)) * (var(--itemstab) - 1)) / var(--itemstab));
@@ -167,7 +167,7 @@ img {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 768px) {
   .card-set__link.link {
     max-width: 354px;
   }
@@ -590,7 +590,7 @@ img {
   right: 0;
 }
 
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 768px) {
   .header-btn,
 .menu-container {
     display: none;
@@ -831,7 +831,7 @@ img {
   margin-right: auto;
 }
 
-@media screen and (max-width: 779px) {
+@media screen and (max-width: 767px) {
   .header__nav,
 .contacts {
     display: none;
@@ -875,13 +875,13 @@ img {
   bottom: -3px;
 }
 
-@media screen and (min-width: 780px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .contacts__link.link {
     padding: 0;
   }
 }
 
-@media screen and (min-width: 780px) and (max-width: 1198px) {
+@media screen and (min-width: 768px) and (max-width: 1198px) {
   .contacts {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1678,14 +1678,14 @@ img {
       -ms-flex-align: center;
           align-items: center;
 }
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 768px) {
   .filter-nav {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
   }
 }
-@media screen and (min-width: 480px) and (max-width: 778px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .filter-nav {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1699,15 +1699,15 @@ img {
     margin-bottom: 40px;
   }
 }
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 768px) {
   .filter-nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
-    padding: 6px 0 22px 0;
-    margin-bottom: 14px;
+    /*padding: 6px 0 22px 0;*/
+    margin-bottom: 30px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1754,7 +1754,7 @@ img {
     --items: 3;
   }
 }
-@media screen and (min-width: 480px) and (max-width: 778px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .portfolio-list {
     width: 480px;
   }
