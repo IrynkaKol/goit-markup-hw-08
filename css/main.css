@@ -423,7 +423,7 @@ img {
     position: relative;
   }
 }
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 768px) {
   .modal {
     position: absolute;
     max-width: 450px;
@@ -627,7 +627,7 @@ img {
     top: 50%;
     transform: translate(-50%, -50%);*/
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 767px) {
   .menu-container {
     display: none;
   }
