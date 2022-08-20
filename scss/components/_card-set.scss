@@ -9,7 +9,6 @@
   &__item {
     flex-basis: calc((100% - var(var(--indent)) * (var(--items) - 1)) / var(--items));
     color: var(--title-text-color);
-    width: 100%;
   }
 
   &__img {
