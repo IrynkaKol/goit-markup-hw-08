@@ -1441,7 +1441,7 @@ img {
     /* align-items: flex-start;*/
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1200px) {
+@media screen and (min-width: 768px) and (min-width: 1200px) {
   .footer-wrap {
     margin-bottom: 0;
   }
