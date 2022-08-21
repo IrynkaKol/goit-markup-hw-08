@@ -50,13 +50,12 @@
   @media screen and (min-width: 768px) {
     flex-basis: calc((100% - var(var(--indent)) * (var(--itemstab) - 1)) / var(--itemstab));
     color: var(--title-text-color);
-    width: 100%;
   }
 
   @media screen and (min-width: 1200px) {
     flex-basis: calc((100% - var(var(--indent)) * (var(--items) - 1)) / var(--items));
     color: var(--title-text-color);
-    width: 100%;
+    width: 370px;
   }
 }
 
