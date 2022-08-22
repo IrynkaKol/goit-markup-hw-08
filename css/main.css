@@ -975,10 +975,6 @@ img {
     max-width: 1600px;
   }*/
 /*Features section*/
-.features__list {
-  /*
-  gap: 30px;*/
-}
 @media screen and (min-width: 768px) {
   .features__list {
     display: -webkit-box;
@@ -1065,7 +1061,7 @@ img {
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1199px) {
   .about {
     display: none;
   }
