@@ -120,26 +120,6 @@ img {
 }
 
 @media screen and (min-width: 768px) {
-  .card-set__discription {
-    width: 354px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .card-set__item,
-.card-set__img {
-    max-height: 440px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .card-set__img,
-.card-set__item {
-    max-width: 354px;
-  }
-}
-
-@media screen and (min-width: 768px) {
   .card-set__item {
     -ms-flex-preferred-size: calc((100% - var(var(--indent)) * (var(--itemstab) - 1)) / var(--itemstab));
         flex-basis: calc((100% - var(var(--indent)) * (var(--itemstab) - 1)) / var(--itemstab));

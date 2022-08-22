@@ -26,26 +26,6 @@
   }
 }
 
-.card-set__discription {
-  @media screen and (min-width: 768px) {
-    width: 354px;
-  }
-}
-
-.card-set__item,
-.card-set__img {
-  @media screen and (min-width: 768px) {
-    max-height: 440px;
-  }
-}
-
-.card-set__img,
-.card-set__item {
-  @media screen and (min-width: 768px) {
-    max-width: 354px;
-  }
-}
-
 .card-set__item {
   @media screen and (min-width: 768px) {
     flex-basis: calc((100% - var(var(--indent)) * (var(--itemstab) - 1)) / var(--itemstab));
