@@ -8,8 +8,6 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  /*(../images/hero/Img@1x_ld.jpg)*/
-  /*background-image: url(../images/hero/Img@1x_ld.jpg);*/
 
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/hero/img@1x_sd.jpg);
@@ -36,13 +34,13 @@
 
   @media screen and (min-width: 1200px) {
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-      url(../images/hero/Img@1x_ld.jpg) /*(../images/hero/Img@1x_ld.jpg)*/;
+      url(../images/hero/Img@1x_ld.jpg);
     @media (min-device-pixel-ratio: 2),
       (-webkit-min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
       background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-        url(../images/hero/Img@2x_ld.jpg) /*(../images/hero/Img@2x_ld.jpg)*/;
+        url(../images/hero/Img@2x_ld.jpg);
     }
   }
   @media screen and (min-width: 1200px) {
